@@ -1,0 +1,36 @@
+.scorecard {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    border-collapse: collapse;
+  }
+  
+  .scorecard h2 {
+    background-color: #006400;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .scorecard ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .scorecard li {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #f0f0f0;
+    margin-bottom: 2px;
+    padding: 10px;
+  }
+  
+  .scorecard li:nth-child(even) {
+    background-color: #ddd;
+  }
+  
+  .scorecard li span {
+    text-align: center;
+  }
+  
+  /* Additional styling as needed */
+  
