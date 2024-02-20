@@ -23,6 +23,7 @@ function Player({ player, fetchPlayer }) {
               <ScoreCard
                 key={index} // It's better to use a unique ID if available
                 name={scorecard.course.name} // Assuming you want to use the date as the name
+                par={scorecard.course.par} // Assuming you want to use the date as the name
                 scores={scorecard.scores}
                 date={scorecard.updatedAt}
               />
