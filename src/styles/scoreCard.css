@@ -1,8 +1,16 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create two columns of equal width */
+    gap: 10px; /* Space between grid items */
+    padding: 10px;
+    border: 1px green solid;
+}
 .scorecard {
     font-family: Arial, sans-serif;
     margin: 20px;
     border-collapse: collapse;
     border: 1px solid #006400;
+    min-width: 40vw;
   }
   .scorecard-title{
     display: flex;
