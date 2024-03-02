@@ -16,13 +16,15 @@ const ScoreCard = ({ name, totalScore, scores, date, par }) => {
             <div className='list-container'>
                 <ul>
                     {scores.map((score) => (
+                        <>
                         <React.Fragment>
                             <div className='list-container-fragment'>
 
-                                <li>Hole {score.hole.hole_number}: </li>
+                                <li>Hole {score.hole.hole_number} : </li>
                                 <li>{score.strokes} strokes</li>
                             </div>
                         </React.Fragment>
+                        </>
                     ))}
                 </ul>
             </div>

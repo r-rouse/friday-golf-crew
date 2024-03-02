@@ -4,7 +4,7 @@ import { Footer } from './components/Footer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Header } from './components/Header';
 import Player from './pages/Player';
-import { Course } from './pages/Course';
+import  Course  from './pages/Course';
 import ScorecardForm from './components/ScorecardForm';
 
 

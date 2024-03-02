@@ -1,0 +1,13 @@
+.selection-container{
+    display: flex;
+    margin: 5vh;
+    gap: 10px;
+}
+
+
+.hole-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create two columns of equal width */
+    gap: 10px;
+    margin: 4vh;
+}

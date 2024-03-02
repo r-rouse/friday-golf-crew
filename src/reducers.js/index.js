@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import playerReducer from './playerReducer';
+import playerManagementReducer from './playerReducer';
 
 const rootReducer = combineReducers({
-  player: playerReducer
+  player: playerManagementReducer
   // Add other reducers here
 });
 
